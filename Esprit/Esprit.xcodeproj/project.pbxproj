@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C0AAE252AB53CF900B7533F /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0AAE242AB53CF900B7533F /* Color.swift */; };
+		2C5223602A97E9A10066F87F /* ProximaNovaLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2C52235F2A97E9A10066F87F /* ProximaNovaLight.otf */; };
+		2C5223622A97E9AD0066F87F /* ProximaNovaThin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2C5223612A97E9AD0066F87F /* ProximaNovaThin.otf */; };
+		2C5223642A97E9BF0066F87F /* ProximaNovaRegular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2C5223632A97E9BF0066F87F /* ProximaNovaRegular.otf */; };
+		2C7958FB2A782D750017E57A /* EspritApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7958FA2A782D750017E57A /* EspritApp.swift */; };
+		2C7958FD2A782D750017E57A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7958FC2A782D750017E57A /* ContentView.swift */; };
+		2C7958FF2A782D770017E57A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C7958FE2A782D770017E57A /* Assets.xcassets */; };
+		2C7959032A782D770017E57A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C7959022A782D770017E57A /* Preview Assets.xcassets */; };
+		2C79590A2A7832F40017E57A /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7959092A7832F40017E57A /* OnboardingView.swift */; };
+		2C85FD912AF1E33800E93C72 /* JournalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C85FD902AF1E33800E93C72 /* JournalView.swift */; };
+		2C85FD932AF1F62E00E93C72 /* JournalDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C85FD922AF1F62E00E93C72 /* JournalDetailView.swift */; };
+		2CC57CDE2AB65D4400036558 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC57CDD2AB65D4400036558 /* Constants.swift */; };
+		2CCD6CFB2AF29B56009B43F0 /* HeartAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCD6CFA2AF29B56009B43F0 /* HeartAlert.swift */; };
+		2CCD6CFD2AF2A1F9009B43F0 /* HeartGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCD6CFC2AF2A1F9009B43F0 /* HeartGraphView.swift */; };
+		2CCD6CFF2AF2ABD4009B43F0 /* TabBarHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCD6CFE2AF2ABD4009B43F0 /* TabBarHome.swift */; };
+		2CD19D3F2AB60EFC001BD7E0 /* GoogleGenerativeAI in Frameworks */ = {isa = PBXBuildFile; productRef = 2CD19D3E2AB60EFC001BD7E0 /* GoogleGenerativeAI */; };
+		2CD19D412AB61A3E001BD7E0 /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD19D402AB61A3E001BD7E0 /* ChatViewModel.swift */; };
+		2CD19D432AB61A7A001BD7E0 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD19D422AB61A7A001BD7E0 /* ChatView.swift */; };
+		2CD19D452AB61B6E001BD7E0 /* OpenAIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD19D442AB61B6E001BD7E0 /* OpenAIService.swift */; };
+		2CD19D482AB61C14001BD7E0 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 2CD19D472AB61C14001BD7E0 /* Alamofire */; };
+		2CE6E3172AEEBF74002D6E49 /* MeditationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE6E3162AEEBF74002D6E49 /* MeditationView.swift */; };
+		2CE6E3192AEEC29A002D6E49 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE6E3182AEEC29A002D6E49 /* PlayerView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2C0AAE232AB51BDB00B7533F /* LibreBarcode39TextRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = LibreBarcode39TextRegular.ttf; sourceTree = "<group>"; };
+		2C0AAE242AB53CF900B7533F /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		2C52235F2A97E9A10066F87F /* ProximaNovaLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ProximaNovaLight.otf; sourceTree = "<group>"; };
+		2C5223612A97E9AD0066F87F /* ProximaNovaThin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ProximaNovaThin.otf; sourceTree = "<group>"; };
+		2C5223632A97E9BF0066F87F /* ProximaNovaRegular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ProximaNovaRegular.otf; sourceTree = "<group>"; };
+		2C5223652A97EA640066F87F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		2C7958F72A782D750017E57A /* Esprit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Esprit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C7958FA2A782D750017E57A /* EspritApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EspritApp.swift; sourceTree = "<group>"; };
+		2C7958FC2A782D750017E57A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2C7958FE2A782D770017E57A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C7959002A782D770017E57A /* Esprit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Esprit.entitlements; sourceTree = "<group>"; };
+		2C7959022A782D770017E57A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2C7959092A7832F40017E57A /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		2C85FD902AF1E33800E93C72 /* JournalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalView.swift; sourceTree = "<group>"; };
+		2C85FD922AF1F62E00E93C72 /* JournalDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalDetailView.swift; sourceTree = "<group>"; };
+		2CC57CDD2AB65D4400036558 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		2CCD6CFA2AF29B56009B43F0 /* HeartAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartAlert.swift; sourceTree = "<group>"; };
+		2CCD6CFC2AF2A1F9009B43F0 /* HeartGraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartGraphView.swift; sourceTree = "<group>"; };
+		2CCD6CFE2AF2ABD4009B43F0 /* TabBarHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarHome.swift; sourceTree = "<group>"; };
+		2CD19D402AB61A3E001BD7E0 /* ChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
+		2CD19D422AB61A7A001BD7E0 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		2CD19D442AB61B6E001BD7E0 /* OpenAIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAIService.swift; sourceTree = "<group>"; };
+		2CE6E3162AEEBF74002D6E49 /* MeditationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeditationView.swift; sourceTree = "<group>"; };
+		2CE6E3182AEEC29A002D6E49 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C7958F42A782D750017E57A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CD19D3F2AB60EFC001BD7E0 /* GoogleGenerativeAI in Frameworks */,
+				2CD19D482AB61C14001BD7E0 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C52235E2A97E96D0066F87F /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				2C52235F2A97E9A10066F87F /* ProximaNovaLight.otf */,
+				2C5223612A97E9AD0066F87F /* ProximaNovaThin.otf */,
+				2C5223632A97E9BF0066F87F /* ProximaNovaRegular.otf */,
+				2C0AAE232AB51BDB00B7533F /* LibreBarcode39TextRegular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		2C7958EE2A782D750017E57A = {
+			isa = PBXGroup;
+			children = (
+				2C7958F92A782D750017E57A /* Esprit */,
+				2C7958F82A782D750017E57A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2C7958F82A782D750017E57A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C7958F72A782D750017E57A /* Esprit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C7958F92A782D750017E57A /* Esprit */ = {
+			isa = PBXGroup;
+			children = (
+				2CE6E3162AEEBF74002D6E49 /* MeditationView.swift */,
+				2CE6E3182AEEC29A002D6E49 /* PlayerView.swift */,
+				2C5223652A97EA640066F87F /* Info.plist */,
+				2C52235E2A97E96D0066F87F /* Fonts */,
+				2C7958FA2A782D750017E57A /* EspritApp.swift */,
+				2C7958FC2A782D750017E57A /* ContentView.swift */,
+				2CCD6CFE2AF2ABD4009B43F0 /* TabBarHome.swift */,
+				2CC57CDF2AB6762F00036558 /* Chatbot */,
+				2C0AAE242AB53CF900B7533F /* Color.swift */,
+				2C7959092A7832F40017E57A /* OnboardingView.swift */,
+				2C7958FE2A782D770017E57A /* Assets.xcassets */,
+				2C7959002A782D770017E57A /* Esprit.entitlements */,
+				2C7959012A782D770017E57A /* Preview Content */,
+			);
+			path = Esprit;
+			sourceTree = "<group>";
+		};
+		2C7959012A782D770017E57A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2C7959022A782D770017E57A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2CC57CDF2AB6762F00036558 /* Chatbot */ = {
+			isa = PBXGroup;
+			children = (
+				2CD19D402AB61A3E001BD7E0 /* ChatViewModel.swift */,
+				2CD19D442AB61B6E001BD7E0 /* OpenAIService.swift */,
+				2CC57CDD2AB65D4400036558 /* Constants.swift */,
+				2CD19D422AB61A7A001BD7E0 /* ChatView.swift */,
+				2C85FD902AF1E33800E93C72 /* JournalView.swift */,
+				2CCD6CFA2AF29B56009B43F0 /* HeartAlert.swift */,
+				2CCD6CFC2AF2A1F9009B43F0 /* HeartGraphView.swift */,
+				2C85FD922AF1F62E00E93C72 /* JournalDetailView.swift */,
+			);
+			path = Chatbot;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C7958F62A782D750017E57A /* Esprit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C7959062A782D770017E57A /* Build configuration list for PBXNativeTarget "Esprit" */;
+			buildPhases = (
+				2C7958F32A782D750017E57A /* Sources */,
+				2C7958F42A782D750017E57A /* Frameworks */,
+				2C7958F52A782D750017E57A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Esprit;
+			packageProductDependencies = (
+				2CD19D3E2AB60EFC001BD7E0 /* GoogleGenerativeAI */,
+				2CD19D472AB61C14001BD7E0 /* Alamofire */,
+			);
+			productName = Esprit;
+			productReference = 2C7958F72A782D750017E57A /* Esprit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C7958EF2A782D750017E57A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					2C7958F62A782D750017E57A = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 2C7958F22A782D750017E57A /* Build configuration list for PBXProject "Esprit" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C7958EE2A782D750017E57A;
+			packageReferences = (
+				2CD19D3D2AB60EFC001BD7E0 /* XCRemoteSwiftPackageReference "generative-ai-swift" */,
+				2CD19D462AB61C14001BD7E0 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			productRefGroup = 2C7958F82A782D750017E57A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C7958F62A782D750017E57A /* Esprit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C7958F52A782D750017E57A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C7959032A782D770017E57A /* Preview Assets.xcassets in Resources */,
+				2C5223602A97E9A10066F87F /* ProximaNovaLight.otf in Resources */,
+				2C5223642A97E9BF0066F87F /* ProximaNovaRegular.otf in Resources */,
+				2C7958FF2A782D770017E57A /* Assets.xcassets in Resources */,
+				2C5223622A97E9AD0066F87F /* ProximaNovaThin.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C7958F32A782D750017E57A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CCD6CFD2AF2A1F9009B43F0 /* HeartGraphView.swift in Sources */,
+				2CCD6CFB2AF29B56009B43F0 /* HeartAlert.swift in Sources */,
+				2C85FD912AF1E33800E93C72 /* JournalView.swift in Sources */,
+				2CD19D452AB61B6E001BD7E0 /* OpenAIService.swift in Sources */,
+				2CCD6CFF2AF2ABD4009B43F0 /* TabBarHome.swift in Sources */,
+				2C79590A2A7832F40017E57A /* OnboardingView.swift in Sources */,
+				2C0AAE252AB53CF900B7533F /* Color.swift in Sources */,
+				2CE6E3192AEEC29A002D6E49 /* PlayerView.swift in Sources */,
+				2C7958FD2A782D750017E57A /* ContentView.swift in Sources */,
+				2CD19D412AB61A3E001BD7E0 /* ChatViewModel.swift in Sources */,
+				2CD19D432AB61A7A001BD7E0 /* ChatView.swift in Sources */,
+				2C7958FB2A782D750017E57A /* EspritApp.swift in Sources */,
+				2CE6E3172AEEBF74002D6E49 /* MeditationView.swift in Sources */,
+				2CC57CDE2AB65D4400036558 /* Constants.swift in Sources */,
+				2C85FD932AF1F62E00E93C72 /* JournalDetailView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2C7959042A782D770017E57A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2C7959052A782D770017E57A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		2C7959072A782D770017E57A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Esprit/Esprit.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Esprit/Preview Content\"";
+				DEVELOPMENT_TEAM = MQT74LZZD4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Esprit/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hs.Esprit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C7959082A782D770017E57A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Esprit/Esprit.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Esprit/Preview Content\"";
+				DEVELOPMENT_TEAM = MQT74LZZD4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Esprit/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hs.Esprit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C7958F22A782D750017E57A /* Build configuration list for PBXProject "Esprit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C7959042A782D770017E57A /* Debug */,
+				2C7959052A782D770017E57A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C7959062A782D770017E57A /* Build configuration list for PBXNativeTarget "Esprit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C7959072A782D770017E57A /* Debug */,
+				2C7959082A782D770017E57A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2CD19D3D2AB60EFC001BD7E0 /* XCRemoteSwiftPackageReference "generative-ai-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/generative-ai-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.0;
+			};
+		};
+		2CD19D462AB61C14001BD7E0 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2CD19D3E2AB60EFC001BD7E0 /* GoogleGenerativeAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2CD19D3D2AB60EFC001BD7E0 /* XCRemoteSwiftPackageReference "generative-ai-swift" */;
+			productName = GoogleGenerativeAI;
+		};
+		2CD19D472AB61C14001BD7E0 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2CD19D462AB61C14001BD7E0 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 2C7958EF2A782D750017E57A /* Project object */;
+}
